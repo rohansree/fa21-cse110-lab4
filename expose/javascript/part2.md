@@ -23,4 +23,52 @@
 
 ## Data Types
 
+12. 5 parts
+   A. student.name;  
+   B. student["Grad Year"];  
+   C. student.greeting();  
+   D. student["Favorite Teacher"].name;  
+   E. student.courseLoad[0];  
+
+
+## Basic Operators and Type Conversion
+
+13. 
+      A. '32'
+         This is because the int 2 is converted to the string "2," then concatenated with the string '3' to form "32."  
+      B.  1  
+          '3' is converted to the int 3 because – is a mathematical operation, so 3-2=1.  
+      C.  3  
+            null is converted to 0 for the mathematical operation. 3+0=0  
+      D.  '3null'  
+            3 is the first data to show up and it is a string, so null is also converted to string form and then concatenated with '3.'  
+      E.  4  
+            true is converted to 1 to be added to an integer. 1+3=4  
+      F.  0
+            both false and null are converted to ints, and both convert to 0 0+0=0  
+      G. '3undefined'  
+            3 is the first data to show up and it is a string, so undefined is converted to string form and then concatenated with '3.'  
+      H. NaN  
+            - means a mathematical operation occurs. '3' becomes 3, but undefined becomes NaN when converted to an integer.  
+14.  
+      A. true  
+         The number 2 is converted to the number 2 for the comparison, and 2>1 is true.  
+      B.  false   
+          Both '2' and '12' are evaluated as strings. '2' is greater than '12' because 2 is after 1 in lexographical order.  
+      C.  true  
+            '2' is converted to a number for the comparison, and 2 == 2 is true.  
+      D.  false  
+            === is a strict equals operator, and it returns false because 2 and '2' are not the same type.  
+      E.  false.  
+            true is converted to a number, 1, and 1 == 2 is false.
+      E.  4  
+            true is converted to 1 to be added to an integer. 1+3=4  
+      F.  true.  
+            Boolean(2) is converted to 2, as any non 0 and non-null or undefined value does. true === true, so the result is true.  
+15. == checks equality with type conversion; for example, ''==false, and 0 == false. However, === is more strict, and compares 2 values without type conversions, so it would return false in situations like the two stated above.
+
+
+## Loops
+
+16. in js-file, part2-question16.js.
 
