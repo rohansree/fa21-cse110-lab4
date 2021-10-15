@@ -72,3 +72,20 @@
 
 16. in js-file, part2-question16.js.
 
+
+## Functions
+
+17. [2,4,6]  
+      doSomething is a callback function, and it is called on every element of the array. The return value is the initial value doubled, and that is the value pushed onto the new array.  
+
+## setInterval(), setTimeout(), clearTimeout()
+
+18. in js-file, part2-question18.js
+
+19. 
+    1  
+    4  
+    3  
+    2  
+   
+
