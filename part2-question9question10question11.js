@@ -13,4 +13,4 @@ function discountPrices(prices,discount){
     return discounted;
 }
 
-console.log(discountPrices([100,200, 300], 0.5));
+discountPrices([100,200, 300], 0.5);

@@ -22,3 +22,5 @@
     Const means the variable cannot be reassigned, but it can be manipulated. So, pushing new variables to the array discounted will work, and 50, 100, and 150 will be pushed to it.
 
 ## Data Types
+
+
